@@ -1,0 +1,36 @@
+settings =
+{
+    orientation =
+    {
+        default = "landscapeRight",
+        supported =
+        {
+            "landscapeRight", "landscapeLeft"
+        }
+    },
+    
+    
+    iphone =
+    {
+        plist =
+        {
+            UIInterfaceOrientation = "UIInterfaceOrientationLandscapeRight",
+ 
+            UISupportedInterfaceOrientations =
+            {
+                "UIInterfaceOrientationLandscapeLeft",
+                "UIInterfaceOrientationLandscapeRight"
+            },
+            
+            UIApplicationExitsOnSuspend = true,
+            UIStatusBarHidden = true,
+            UIPrerenderedIcon = true,
+            
+            UIAppFonts = 
+            {
+                "BebasNeue.ttf"
+            }
+            
+        }
+    }
+}
